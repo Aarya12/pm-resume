@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.17)  17 FEB 2024 12:13
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.17)  17 FEB 2024 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,7 +380,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip60
 \f@nch@O@orf=\skip61
 )
-No file 2024.aux.
+(/Users/prankurmalhotra/IdeaProjects/pm-resume/out/2024.aux)
 \openout1 = `2024.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -394,6 +394,7 @@ LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 0.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -444,11 +445,10 @@ LaTeX Font Info:    ... okay on input line 50.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 50.
+(/Users/prankurmalhotra/IdeaProjects/pm-resume/out/2024.out)
+(/Users/prankurmalhotra/IdeaProjects/pm-resume/out/2024.out)
 \@outlinefile=\write3
 \openout3 = `2024.out'.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -512,6 +512,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
  line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 50.
+
 isodate: babel.sty, (n)german.sty have not been loaded
 
 Package fontspec Info: Font family 'Raleway-ExtraLight(1)' created for font
@@ -592,33 +593,25 @@ LaTeX Font Warning: Font shape `TU/Lato-Bol(0)/b/n' undefined
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 111.
+(hyperref)                removing `\newline' on input line 109.
 
 [1
 
-]
-(/Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Software Engineer res
-ume/out/2024.aux)
+] (/Users/prankurmalhotra/IdeaProjects/pm-resume/out/2024.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `2024.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `2024.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4F4F2AAAA81EAEE3A5C413C888165B8E;1043.
+Package rerunfilecheck Info: File `2024.out' has not changed.
+(rerunfilecheck)             Checksum: 4F4F2AAAA81EAEE3A5C413C888165B8E;1043.
  ) 
 Here is how much of TeX's memory you used:
- 12247 strings out of 476683
- 246748 string characters out of 5804047
- 1878018 words of memory out of 5000000
- 32326 multiletter control sequences out of 15000+600000
+ 12257 strings out of 476683
+ 246951 string characters out of 5804047
+ 1877018 words of memory out of 5000000
+ 32330 multiletter control sequences out of 15000+600000
  513031 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,11n,136p,463b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Soft
-ware Engineer resume/out/2024.pdf (1 page).
+Output written on /Users/prankurmalhotra/IdeaProjects/pm-resume/out/2024.pdf (1
+ page).

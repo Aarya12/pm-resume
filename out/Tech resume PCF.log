@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.17)  17 FEB 2024 12:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.17)  17 FEB 2024 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,8 +380,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip60
 \f@nch@O@orf=\skip61
 )
-(/Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Software Engineer res
-ume/out/Tech resume PCF.aux)
+(/Users/prankurmalhotra/IdeaProjects/pm-resume/out/Tech resume PCF.aux)
 \openout1 = `"Tech resume PCF.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -446,11 +445,8 @@ LaTeX Font Info:    ... okay on input line 50.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 50.
-
-(/Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Software Engineer res
-ume/out/Tech resume PCF.out)
-(/Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Software Engineer res
-ume/out/Tech resume PCF.out)
+(/Users/prankurmalhotra/IdeaProjects/pm-resume/out/Tech resume PCF.out)
+(/Users/prankurmalhotra/IdeaProjects/pm-resume/out/Tech resume PCF.out)
 \@outlinefile=\write3
 \openout3 = `"Tech resume PCF.out"'.
 
@@ -601,9 +597,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [1
 
-]
-(/Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Software Engineer res
-ume/out/Tech resume PCF.aux)
+] (/Users/prankurmalhotra/IdeaProjects/pm-resume/out/Tech resume PCF.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -612,12 +606,12 @@ Package rerunfilecheck Info: File `"Tech resume PCF".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12259 strings out of 476683
- 247600 string characters out of 5804047
+ 247204 string characters out of 5804047
  1878018 words of memory out of 5000000
  32332 multiletter control sequences out of 15000+600000
  513031 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,11n,136p,476b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/prankurmalhotra/Downloads/Prankur Malhotra Senior Soft
-ware Engineer resume/out/Tech resume PCF.pdf (1 page).
+Output written on /Users/prankurmalhotra/IdeaProjects/pm-resume/out/Tech resume
+ PCF.pdf (1 page).

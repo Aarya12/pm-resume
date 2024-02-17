@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%https://www.overleaf.com/project/5caff8e9e51a152e6d1c9a31
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Prankur}{Malhotra}{
+\href| 727.777.7418 | \href{mailto:prankurmalhotra@yahoo.in}{prankurmalhotra@yahoo.in}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+
+ \textbullet{} Pivotal Cloud Foundry \newline 
+ \textbullet{} RESTful API architecture \newline
+  \textbullet{} MongoDb \newline
+ \textbullet{} SOA and DDD \newline 
+ \textbullet{} TDD and BDD \newline 
+ \textbullet{} migrating legacy monolithic applications \newline
+ \textbullet{} 0 downtime deployment \newline 
+ \textbullet{} spring boot, cloud config, actuator \newline 
+ \textbullet{} Access Control (OAuth/SAML, Web SSO, SSL) \newline 
+ \textbullet{} kafka, rabbitMq \newline 
+ \textbullet{} karate (cucumber) \newline 
+ \textbullet{} Elastic search \newline 
+ \textbullet{} Apache Synapse, zookeeper \newline 
+ \textbullet{} Android \textbullet{} iOS \newline 
+ \textbullet{} Selenium web driver \newline 
+ \textbullet{} Ni-Fi \textbullet{} PEGA \newline 
+ \textbullet{} Automation testing \newline 
+ \textbullet{} SonarQube \textbullet{} Splunk \textbullet{} Dynatrace
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+
+\subsection{Northwest Missouri \newline State University}
+\descript{BS in Computer Science}
+\location{May 2017 |  Maryville, MO}
+College of Engineering \\
+Magna Cum Laude\\
+\location{ Cum. GPA: 3.83 / 4.0 \\
+Major GPA: 3.9 / 4.0}
+\sectionsep
+
+\subsection{St Georges College}
+\location{Grad. May 2013 | \newline Mussoorie, UK}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+
+LinkedIn://  \href{https://www.linkedin.com/in/prankurmalhotra/}{\bf prankurmalhotra/} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+
+\subsection{Undergraduate}
+Operating Systems \\
+Advanced Algorithms \\
+{\footnotesize \textit{\textbf{( Teaching Asst) }}} \\
+Artificial Intelligence + Practicum \\
+Functional Programming \\
+{\footnotesize \textit{\textbf{( Teaching Asst) }}} \\
+Advanced Machine Learning \\
+Open Source Software Engineering \\
+Compilers + Practicum \\
+Cloud Computing \\
+Machine Learning \\
+Unix Tools and Scripting \\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{MASTERCARD}
+\descript{| Senior Software Engineer and Product Owner}
+\location{June 2018 - Present | New York, NY}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Led development efforts of modern microservice architecture using Pivotal Cloud Foundry (PCF) as part of an initiative to be cloud native. 
+\item Designed, developed, tested(performance, security, integration, Sonar standards followed) , deployed multiple microservices application with production ready MongoDb enterprise servers
+\item Initiated and TPO to a UI application initiative built on angular 6, implemented  multitenant-capable elastic search
+\item duties and work style -> SOA, DDD, TDD, BDD, Deploying highly scalable, distributed systems, Developing Microservices and migrating legacy monolithic services, fully automated Jenkins pipelines, Implementing Health-checks, environment mappings and metrics using Actuator, Spring cloud bus refresh, Geo-redundant architecture, CI-CD, Splunk monitered logs, Kafka, Apache nifi, Spring retry,Karate [integration tests], Mockito
+\item Led China on Soil initiative - Designed technical architecture and developed high performance spring batch applications which processed multi millions transactions with 0.08 percent failure rate in Prod. 
+\item Help develop a self-sustaining team by putting in hard-set development, deployment and testing practices.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{MASTERCARD}
+\descript{| Software Engineer }
+\location{May 2017 - June 2018 |  O'Fallon, MO}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Built test suites for integration testing for UI and APIs using Selenium, Karate, and browser stack in a BDD env.
+\item Built fully automated Jenkins pipeline through CI-CD scripts to deploy the UI and api automation scripts and run it on browser stack.
+\item As a performance testing lead, performed stress, soak, Spike, Endurance tests to fine tune the application by adjusting heap size etc to get the achieved throughput. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{MASTERCARD}
+\descript{| Entry level Engineer (Android) }
+\location{May 2016  | O'Fallon, MO}
+\begin{tightemize}
+\item  Designed and implemented a native android application for uploading stack
+trace and improving customer user experience.
+\item Used multi-threading to implement parallel processing using AsyncTask,
+fragments for creating boiler plate elements for different screen
+\item Worked with clients in order to deliver the best product with primary emphases on ease on User experience
+\item Integrated oAuth1 and oAuth2 authorization servers to integrate with social platforms.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{JP MORGAN CHASE}
+\descript{| Developer - Full stack - temp}
+\location{May 2015 – Aug 2015 | Columbus, Ohio}
+\begin{tightemize}
+\item Web application development using spring boot, JavaScript, Bootstrap
+\item Used apache nifi as an ETL tool to read data from their party server
+\end{tightemize}
+\sectionsep
+
+\runsubsection{PAPERPLANES}
+\descript{| Web developer}
+\location{Jan 2015 – April 2015 | Kansas city, MO}
+\begin{tightemize}
+\item Collaborated with 3 others to develop a web application which helped plan a
+complete trip/vacation with just a few clicks
+\item Designed and developed with primary focus towards user experience.
+\end{tightemize}
+\sectionsep
+
+
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
